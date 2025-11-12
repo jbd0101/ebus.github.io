@@ -228,7 +228,7 @@ w,,,Z1ValveStatus,valve status zone 1,,,b524,020103001200,value,,UCH,,,valve sta
 r,,,Z1RoomZoneMapping,room zone mapping zone 1,,,b524,020003001300,value,,IGN:4,,,,value,,UIN,0=none;1=VRC700;2=VR91_1;3=VR91_2;4=VR91_3,,configures which room temperature is assigned to zone 1
 w,,,Z1RoomZoneMapping,room zone mapping zone 1,,,b524,020103001300,value,,UIN,0=none;1=VRC700;2=VR91_1;3=VR91_2;4=VR91_3,,configures which room temperature is assigned to zone 1
 r,,,Z1ActualRoomTempDesired,room temperature desired zone 1,,,b524,020003001400,value,,IGN:4,,,,value,,EXP,,°C,current room setpoint considering all basic conditions passed to the control algorithms
-w,,,Z1ActualRoomTempDesired,room temperature desired zone 1,,,b524,020103001400,value,,EXP,,°C,current room setpoint considering all basic conditions passed to the control algorithms
+w,,,Z1ActualRoomTempDesired,room temperature desired zone 1,,,b524,020103002200,value,,EXP,,°C,current room setpoint considering all basic conditions passed to the control algorithms
 r,,,Z1Shortname,Kurzbezeichnung zone 1,,,b524,020003001600,value,,IGN:4,,,,value,,STR:6,,,short name of zone 1
 w,,,Z1Shortname,Kurzbezeichnung zone 1,,,b524,020103001600,value,,STR:6,,,short name of zone 1
 r,,,Z1Name1,zone 1 label (first part),,,b524,020003001700,value,,IGN:4,,,,value,,STR:5,,,name of zone 1
